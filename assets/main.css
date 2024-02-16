@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(217, 189, 243);
+}
+
+.cards{
+    margin: 180px 420px;
+    width: 490px;
+    height: 250px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px
+
+}
+.cards .row{
+    padding: 20px 30px 1px 30px;
+    display: flex;
+    width: calc((100% - 10px));
+    gap: 25px;
+    justify-content: space-between;
+}
+.cards .card{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: calc(100% - 5px);
+    height: 125px;
+    background-color: rgb(170, 123, 214);
+    padding: 20px 15px;
+    align-items: center;
+    border-radius: 5px;
+}
+.card button{
+    padding: 10px;
+    border-radius: 50%;
+}
